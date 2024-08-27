@@ -19,7 +19,7 @@ module.exports = {
         }
       },
       fontFamily: {
-        'sans': ['Plus Jakarta Sans', 'sans-serif']
+        'PlusJakartaSans': ['Plus Jakarta Sans', 'sans-serif']
       }
     },
   },

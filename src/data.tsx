@@ -1,17 +1,7 @@
-import markAvatar from './assets/images/avatar-mark-webber.webp'
-import angelaAvatar from './assets/images/avatar-angela-gray.webp'
-import jacobAvatar from './assets/images/avatar-jacob-thompson.webp'
-import rizkyAvatar from './assets/images/avatar-rizky-hasanuddin.webp'
-import kimberlyAvatar from './assets/images/avatar-kimberly-smith.webp'
-import nathanAvatar from './assets/images/avatar-nathan-peterson.webp'
-import annaAvatar from './assets/images/avatar-anna-kim.webp'
-
-import pic from './assets/images/image-chess.webp'
-
 export const users = [{
       name: 'Mark Webber',
       notification: 'reacted to your recent post',
-      avatar: markAvatar,
+      avatar: '/src/assets/images/avatar-mark-webber.webp',
       time: '1m ago',
       isRecent: true,
       content: {
@@ -22,13 +12,13 @@ export const users = [{
     }, {
       name: 'Angela Gray',
       notification: 'followed you',
-      avatar: angelaAvatar,
+      avatar: '/src/assets/images/avatar-angela-gray.webp',
       time: '5m ago',
       isRecent: true
     }, {
       name: 'Jacob Thompson',
       notification: 'has joined your group',
-      avatar: jacobAvatar,
+      avatar: '/src/assets/images/avatar-jacob-thompson.webp',
       time: '1 day ago',
       isRecent: true,
       content: {
@@ -39,7 +29,7 @@ export const users = [{
     }, {
       name: 'Rizky Hasanuddin',
       notification: 'sent you a private message',
-      avatar: rizkyAvatar,
+      avatar: '/src/assets/images/avatar-rizky-hasanuddin.webp',
       time: '5 days ago',
       isRecent: false,
       content: {
@@ -49,17 +39,17 @@ export const users = [{
     }, {
       name: 'Kimberly Smith',
       notification: 'commented on your picture',
-      avatar: kimberlyAvatar,
+      avatar: '/src/assets/images/avatar-kimberly-smith.webp',
       time: '1 week ago',
       isRecent: false,
       content: {
         type: 'image',
-        value: pic
+        value: '/src/assets/images/image-chess.webp'
       }
     }, {
       name: 'Nathan Peterson',
       notification: 'reacted to your post',
-      avatar: nathanAvatar,
+      avatar: '/src/assets/images/avatar-nathan-peterson.webp',
       time: '2 weeks ago',
       isRecent: false,
       content: {
@@ -70,7 +60,7 @@ export const users = [{
     }, {
       name: 'Anna Kim',
       notification: 'has left the group',
-      avatar: annaAvatar,
+      avatar: '/src/assets/images/avatar-anna-kim.webp',
       time: '2 weeks ago',
       isRecent: false,
       content: {
