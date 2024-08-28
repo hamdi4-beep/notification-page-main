@@ -1,7 +1,10 @@
+import * as React from 'react'
+
 import Notification from "./Notification"
 import { users } from "../data"
 
 function NotificationsList() {
+    const [usersList, setUsersList] = React.useState(users)
 
     return (
         <div className='bg-neutral-white p-5 rounded-lg max-w-4xl'>
@@ -11,16 +14,21 @@ function NotificationsList() {
                 <span className='bg-primary-blue text-white font-bold px-2 rounded'>3</span>
             </div>
 
-            <button>Mark all as read</button>
+            <button onClick={() => setUsersList(users => users.map(user => ({
+                ...user,
+                isRecent: false
+            })))}>Mark all as read</button>
           </div>
 
           <div className="mt-8">
-            {users.map((user, i) => (
-                <Notification
-                    user={user}
-                    key={i}
-                />
-            ))}
+            {usersList.map((user, i) => {
+                return (
+                    <Notification
+                        user={user}
+                        key={i}
+                    />
+                )
+            })}
           </div>
         </div> 
     )
