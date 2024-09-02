@@ -7,7 +7,7 @@ function NotificationsList() {
     const [usersList, setUsersList] = React.useState(users)
 
     return (
-        <div className='bg-neutral-white p-5 rounded-lg max-w-4xl'>
+        <div className='bg-neutral-white p-5 rounded-lg max-w-screen-md'>
           <div className="flex justify-between items-center">
             <div className='flex items-center gap-2'>
                 <h1 className='font-bold text-xl'>Notifications</h1>

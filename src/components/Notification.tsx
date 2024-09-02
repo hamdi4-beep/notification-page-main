@@ -35,7 +35,7 @@ function Notification({
                         {' ' + user.notification}
 
                         {content?.type == 'contextual' && (
-                            <span className={`${user.associatedColor} font-bold`}>{' ' + content.value}</span>
+                            <span className={`${user.associatedColor} font-bold cursor-pointer`}>{' ' + content.value}</span>
                         )}
 
                         {user.isRecent && (
@@ -46,13 +46,19 @@ function Notification({
                     <span className="text-neutral-grayish-blue">{user.time}</span>
 
                     {content?.type == 'message' && (
-                        <div className="border border-black p-3 rounded mt-2">
+                        <div className="border border-neutral-grayish-blue p-3 rounded mt-2">
                             <p>{content.value}</p>
                         </div>
                     )}
                 </div>
 
-                {content?.type == 'image' && (<img className="self-start w-10 h-10" src={content.value} />)}
+                {content?.type == 'image' && (
+                    <img
+                        className="self-start w-10 h-10 cursor-pointer"
+                        src={content.value}
+                        alt='notification image'
+                    />
+                )}
             </div>
         </div>
     )
