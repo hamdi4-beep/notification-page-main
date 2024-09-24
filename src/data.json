@@ -2,7 +2,7 @@
   {
     "name": "Mark Webber",
     "notification": "reacted to your recent post",
-    "avatar": "/notifications-page-main/assets/images/avatar-mark-webber.webp",
+    "avatar": "/notification-page-main/assets/images/avatar-mark-webber.webp",
     "time": "1m ago",
     "isRecent": true,
     "content": {
@@ -14,14 +14,14 @@
   {
     "name": "Angela Gray",
     "notification": "followed you",
-    "avatar": "/notifications-page-main/assets/images/avatar-angela-gray.webp",
+    "avatar": "/notification-page-main/assets/images/avatar-angela-gray.webp",
     "time": "5m ago",
     "isRecent": true
   },
   {
     "name": "Jacob Thompson",
     "notification": "has joined your group",
-    "avatar": "/notifications-page-main/assets/images/avatar-jacob-thompson.webp",
+    "avatar": "/notification-page-main/assets/images/avatar-jacob-thompson.webp",
     "time": "1 day ago",
     "isRecent": true,
     "content": {
@@ -33,7 +33,7 @@
   {
     "name": "Rizky Hasanuddin",
     "notification": "sent you a private message",
-    "avatar": "/notifications-page-main/assets/images/avatar-rizky-hasanuddin.webp",
+    "avatar": "/notification-page-main/assets/images/avatar-rizky-hasanuddin.webp",
     "time": "5 days ago",
     "isRecent": false,
     "content": {
@@ -44,18 +44,18 @@
   {
     "name": "Kimberly Smith",
     "notification": "commented on your picture",
-    "avatar": "/notifications-page-main/assets/images/avatar-kimberly-smith.webp",
+    "avatar": "/notification-page-main/assets/images/avatar-kimberly-smith.webp",
     "time": "1 week ago",
     "isRecent": false,
     "content": {
       "type": "image",
-      "value": "/notifications-page-main/assets/images/image-chess.webp"
+      "value": "/notification-page-main/assets/images/image-chess.webp"
     }
   },
   {
     "name": "Nathan Peterson",
     "notification": "reacted to your post",
-    "avatar": "/notifications-page-main/assets/images/avatar-nathan-peterson.webp",
+    "avatar": "/notification-page-main/assets/images/avatar-nathan-peterson.webp",
     "time": "2 weeks ago",
     "isRecent": false,
     "content": {
@@ -67,7 +67,7 @@
   {
     "name": "Anna Kim",
     "notification": "has left the group",
-    "avatar": "/notifications-page-main/assets/images/avatar-anna-kim.webp",
+    "avatar": "/notification-page-main/assets/images/avatar-anna-kim.webp",
     "time": "2 weeks ago",
     "isRecent": false,
     "content": {
