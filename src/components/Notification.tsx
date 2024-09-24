@@ -31,7 +31,7 @@ function Notification({
 
                 <div className="mr-auto">
                     <p>
-                        <span className="font-bold text-neutral-very-dark-blue">{user.name} </span>
+                        <span className="font-bold text-neutral-very-dark-blue">{user.name}</span>
                         {' ' + user.notification}
 
                         {content?.type == 'contextual' && (
